@@ -19,3 +19,13 @@ print("You entered a b")
 else
     print("Well it wasn't an a or b.")
 
+selection = input("Enter a lowercase letter")  # This line is correct
+
+if selection == "a":  # This line is correct
+    print("You entered a")  # Indent properly
+
+elif selection == "b":  # Use `==` instead of `=`
+    print("You entered a b")  # Indent properly
+
+else:  # Add a colon `:` after `else`
+    print("Well it wasn't an a or b.")  # Indent properly
